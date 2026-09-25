@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data / cache (usually large — decide if you want to track these)
+*.parquet
+data/cache/
+data/raw/
+
+# Model checkpoints / large artifacts
+checkpoints/
+*.pt
+*.pth
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
