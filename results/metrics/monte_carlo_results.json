@@ -1,0 +1,117 @@
+{
+  "n_folds": 1,
+  "n_shocks_total": 3,
+  "train_ratio": 0.8,
+  "aggregated": {
+    "auc_roc": {
+      "mean": 0.7548,
+      "std": 0.0,
+      "all": [
+        0.7548
+      ]
+    },
+    "aupr": {
+      "mean": 0.3942,
+      "std": 0.0,
+      "all": [
+        0.3942
+      ]
+    },
+    "f1": {
+      "mean": 0.4524,
+      "std": 0.0,
+      "all": [
+        0.4524
+      ]
+    },
+    "precision": {
+      "mean": 0.3524,
+      "std": 0.0,
+      "all": [
+        0.3524
+      ]
+    },
+    "recall": {
+      "mean": 0.6315,
+      "std": 0.0,
+      "all": [
+        0.6315
+      ]
+    },
+    "auc_roc_low_fpr": {
+      "mean": 0.2061,
+      "std": 0.0,
+      "all": [
+        0.2061
+      ]
+    },
+    "best_val_loss": {
+      "mean": 1.9373,
+      "std": 0.0,
+      "all": [
+        1.9373450568228057
+      ]
+    },
+    "best_epoch": {
+      "mean": 7.0,
+      "std": 0.0,
+      "all": [
+        7.0
+      ]
+    },
+    "n_epochs_run": {
+      "mean": 21.0,
+      "std": 0.0,
+      "all": [
+        21.0
+      ]
+    },
+    "train_time_sec": {
+      "mean": 610.9975,
+      "std": 0.0,
+      "all": [
+        610.9975311756134
+      ]
+    },
+    "pos_weight": {
+      "mean": 2.3579,
+      "std": 0.0,
+      "all": [
+        2.357933579335793
+      ]
+    },
+    "threshold": {
+      "mean": 0.9306,
+      "std": 0.0,
+      "all": [
+        0.9306
+      ]
+    }
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "train_shock_names": [
+        "Global Financial Crisis",
+        "IL&FS and NBFC Liquidity Crisis"
+      ],
+      "test_shock_names": [
+        "COVID-19 Pandemic Onset"
+      ],
+      "n_train_snapshots": 91,
+      "n_test_snapshots": 33,
+      "auc_roc": 0.7548,
+      "aupr": 0.3942,
+      "f1": 0.4524,
+      "precision": 0.3524,
+      "recall": 0.6315,
+      "auc_roc_low_fpr": 0.2061,
+      "best_epoch": 7,
+      "best_val_loss": 1.9373450568228057,
+      "n_epochs_run": 21,
+      "train_time_sec": 610.9975311756134,
+      "pos_weight": 2.357933579335793,
+      "threshold": 0.9306
+    }
+  ]
+}

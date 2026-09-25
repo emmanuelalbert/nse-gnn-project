@@ -1,0 +1,538 @@
+{
+  "metadata": {
+    "created_at": "2026-07-18T17:15:24",
+    "last_updated": "2026-07-18T17:15:24",
+    "n_shocks": 52,
+    "detector_params": {
+      "window_days": 5,
+      "sigma_threshold": 2.0,
+      "merge_gap_days": 3
+    },
+    "data_range": {
+      "start": "2005-01-04",
+      "end": "2025-05-30"
+    }
+  },
+  "shocks": [
+    {
+      "name": "Shock_001 (2005-07-22)",
+      "start": "2005-07-22",
+      "end": "2005-08-04",
+      "duration": 10,
+      "avg_return": 0.003439,
+      "max_drawdown": -0.088911,
+      "sigma_breach": 0.5,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_002 (2006-05-12)",
+      "start": "2006-05-12",
+      "end": "2006-06-21",
+      "duration": 29,
+      "avg_return": -0.007683,
+      "max_drawdown": -0.05895,
+      "sigma_breach": 1.39,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_003 (2006-07-13)",
+      "start": "2006-07-13",
+      "end": "2006-07-19",
+      "duration": 5,
+      "avg_return": -0.01258,
+      "max_drawdown": -0.027902,
+      "sigma_breach": 2.22,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_004 (2006-12-06)",
+      "start": "2006-12-06",
+      "end": "2006-12-12",
+      "duration": 5,
+      "avg_return": -0.012009,
+      "max_drawdown": -0.026852,
+      "sigma_breach": 2.13,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_005 (2007-02-22)",
+      "start": "2007-02-22",
+      "end": "2007-03-06",
+      "duration": 9,
+      "avg_return": -0.011124,
+      "max_drawdown": -0.039264,
+      "sigma_breach": 1.98,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_006 (2007-08-14)",
+      "start": "2007-08-14",
+      "end": "2007-08-21",
+      "duration": 5,
+      "avg_return": -0.011488,
+      "max_drawdown": -0.037395,
+      "sigma_breach": 2.04,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_007 (2007-09-17)",
+      "start": "2007-09-17",
+      "end": "2007-09-25",
+      "duration": 7,
+      "avg_return": 0.01364,
+      "max_drawdown": 0.001232,
+      "sigma_breach": 2.23,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_008 (2007-10-09)",
+      "start": "2007-10-09",
+      "end": "2007-10-31",
+      "duration": 17,
+      "avg_return": 0.00875,
+      "max_drawdown": -0.038189,
+      "sigma_breach": 1.4,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_009 (2007-11-15)",
+      "start": "2007-11-15",
+      "end": "2007-11-22",
+      "duration": 6,
+      "avg_return": -0.012183,
+      "max_drawdown": -0.038772,
+      "sigma_breach": 2.16,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_010 (2007-12-12)",
+      "start": "2007-12-12",
+      "end": "2007-12-31",
+      "duration": 12,
+      "avg_return": 0.000563,
+      "max_drawdown": -0.045794,
+      "sigma_breach": 0.01,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_011 (2008-01-14)",
+      "start": "2008-01-14",
+      "end": "2008-01-29",
+      "duration": 12,
+      "avg_return": -0.013374,
+      "max_drawdown": -0.091046,
+      "sigma_breach": 2.36,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_012 (2008-02-05)",
+      "start": "2008-02-05",
+      "end": "2008-02-19",
+      "duration": 11,
+      "avg_return": -0.003092,
+      "max_drawdown": -0.052802,
+      "sigma_breach": 0.61,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_013 (2008-02-27)",
+      "start": "2008-02-27",
+      "end": "2008-04-04",
+      "duration": 25,
+      "avg_return": -0.005033,
+      "max_drawdown": -0.053174,
+      "sigma_breach": 0.94,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_014 (2008-04-11)",
+      "start": "2008-04-11",
+      "end": "2008-04-21",
+      "duration": 5,
+      "avg_return": 0.01245,
+      "max_drawdown": 0.001566,
+      "sigma_breach": 2.03,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_015 (2008-05-20)",
+      "start": "2008-05-20",
+      "end": "2008-06-10",
+      "duration": 16,
+      "avg_return": -0.009227,
+      "max_drawdown": -0.028019,
+      "sigma_breach": 1.65,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_016 (2008-06-17)",
+      "start": "2008-06-17",
+      "end": "2008-07-03",
+      "duration": 13,
+      "avg_return": -0.011731,
+      "max_drawdown": -0.042408,
+      "sigma_breach": 2.08,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_017 (2008-07-10)",
+      "start": "2008-07-10",
+      "end": "2008-08-05",
+      "duration": 19,
+      "avg_return": 0.004205,
+      "max_drawdown": -0.045218,
+      "sigma_breach": 0.63,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Global Financial Crisis",
+      "start": "2008-09-09",
+      "end": "2009-01-15",
+      "duration": 84,
+      "avg_return": -0.005856,
+      "max_drawdown": -0.130142,
+      "sigma_breach": 1.08,
+      "type": "global_financial"
+    },
+    {
+      "name": "Shock_019 (2009-02-11)",
+      "start": "2009-02-11",
+      "end": "2009-04-15",
+      "duration": 39,
+      "avg_return": 0.004402,
+      "max_drawdown": -0.042886,
+      "sigma_breach": 0.66,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_020 (2009-04-29)",
+      "start": "2009-04-29",
+      "end": "2009-06-02",
+      "duration": 24,
+      "avg_return": 0.01207,
+      "max_drawdown": -0.028933,
+      "sigma_breach": 1.97,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_021 (2009-06-11)",
+      "start": "2009-06-11",
+      "end": "2009-06-23",
+      "duration": 9,
+      "avg_return": -0.010198,
+      "max_drawdown": -0.036436,
+      "sigma_breach": 1.82,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_022 (2009-07-02)",
+      "start": "2009-07-02",
+      "end": "2009-07-23",
+      "duration": 16,
+      "avg_return": 0.002579,
+      "max_drawdown": -0.060216,
+      "sigma_breach": 0.35,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_023 (2009-08-04)",
+      "start": "2009-08-04",
+      "end": "2009-08-10",
+      "duration": 5,
+      "avg_return": -0.011972,
+      "max_drawdown": -0.023418,
+      "sigma_breach": 2.12,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_024 (2009-08-20)",
+      "start": "2009-08-20",
+      "end": "2009-08-26",
+      "duration": 5,
+      "avg_return": 0.012643,
+      "max_drawdown": 0.003558,
+      "sigma_breach": 2.06,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_025 (2009-10-26)",
+      "start": "2009-10-26",
+      "end": "2009-11-10",
+      "duration": 11,
+      "avg_return": -0.002123,
+      "max_drawdown": -0.031871,
+      "sigma_breach": 0.45,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_026 (2010-01-20)",
+      "start": "2010-01-20",
+      "end": "2010-01-28",
+      "duration": 6,
+      "avg_return": -0.011842,
+      "max_drawdown": -0.031399,
+      "sigma_breach": 2.1,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_027 (2011-01-04)",
+      "start": "2011-01-04",
+      "end": "2011-01-11",
+      "duration": 6,
+      "avg_return": -0.011296,
+      "max_drawdown": -0.0243,
+      "sigma_breach": 2.0,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_028 (2011-01-25)",
+      "start": "2011-01-25",
+      "end": "2011-02-01",
+      "duration": 5,
+      "avg_return": -0.011689,
+      "max_drawdown": -0.016579,
+      "sigma_breach": 2.07,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_029 (2011-04-29)",
+      "start": "2011-04-29",
+      "end": "2011-05-05",
+      "duration": 5,
+      "avg_return": -0.011585,
+      "max_drawdown": -0.024152,
+      "sigma_breach": 2.05,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_030 (2011-08-02)",
+      "start": "2011-08-02",
+      "end": "2011-08-19",
+      "duration": 13,
+      "avg_return": -0.009978,
+      "max_drawdown": -0.022869,
+      "sigma_breach": 1.78,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_031 (2011-08-29)",
+      "start": "2011-08-29",
+      "end": "2011-09-06",
+      "duration": 5,
+      "avg_return": 0.012907,
+      "max_drawdown": -0.004534,
+      "sigma_breach": 2.11,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_032 (2011-10-05)",
+      "start": "2011-10-05",
+      "end": "2011-10-13",
+      "duration": 6,
+      "avg_return": 0.010349,
+      "max_drawdown": -0.004379,
+      "sigma_breach": 1.67,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_033 (2011-11-11)",
+      "start": "2011-11-11",
+      "end": "2011-12-14",
+      "duration": 23,
+      "avg_return": -0.003981,
+      "max_drawdown": -0.026323,
+      "sigma_breach": 0.76,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_034 (2013-08-14)",
+      "start": "2013-08-14",
+      "end": "2013-08-22",
+      "duration": 6,
+      "avg_return": -0.00873,
+      "max_drawdown": -0.041685,
+      "sigma_breach": 1.57,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_035 (2013-09-04)",
+      "start": "2013-09-04",
+      "end": "2013-09-12",
+      "duration": 6,
+      "avg_return": 0.015177,
+      "max_drawdown": -0.010617,
+      "sigma_breach": 2.49,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_036 (2014-05-08)",
+      "start": "2014-05-08",
+      "end": "2014-05-15",
+      "duration": 6,
+      "avg_return": 0.011392,
+      "max_drawdown": 0.0,
+      "sigma_breach": 1.85,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_037 (2015-08-18)",
+      "start": "2015-08-18",
+      "end": "2015-08-26",
+      "duration": 7,
+      "avg_return": -0.012045,
+      "max_drawdown": -0.060973,
+      "sigma_breach": 2.13,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_038 (2016-02-05)",
+      "start": "2016-02-05",
+      "end": "2016-02-12",
+      "duration": 6,
+      "avg_return": -0.009806,
+      "max_drawdown": -0.033733,
+      "sigma_breach": 1.75,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_039 (2016-02-26)",
+      "start": "2016-02-26",
+      "end": "2016-03-08",
+      "duration": 7,
+      "avg_return": 0.010177,
+      "max_drawdown": -0.006093,
+      "sigma_breach": 1.64,
+      "type": "auto_detected"
+    },
+    {
+      "name": "IL&FS and NBFC Liquidity Crisis",
+      "start": "2018-09-28",
+      "end": "2018-10-09",
+      "duration": 7,
+      "avg_return": -0.009087,
+      "max_drawdown": -0.027044,
+      "sigma_breach": 1.63,
+      "type": "domestic_financial"
+    },
+    {
+      "name": "Shock_041 (2019-09-18)",
+      "start": "2019-09-18",
+      "end": "2019-09-26",
+      "duration": 7,
+      "avg_return": 0.009621,
+      "max_drawdown": -0.012854,
+      "sigma_breach": 1.55,
+      "type": "auto_detected"
+    },
+    {
+      "name": "COVID-19 Pandemic Onset",
+      "start": "2020-02-24",
+      "end": "2020-04-15",
+      "duration": 33,
+      "avg_return": -0.009174,
+      "max_drawdown": -0.139038,
+      "sigma_breach": 1.64,
+      "type": "health_nonfinancial"
+    },
+    {
+      "name": "Shock_043 (2020-05-04)",
+      "start": "2020-05-04",
+      "end": "2020-05-08",
+      "duration": 5,
+      "avg_return": -0.012738,
+      "max_drawdown": -0.059161,
+      "sigma_breach": 2.25,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_044 (2020-05-26)",
+      "start": "2020-05-26",
+      "end": "2020-06-03",
+      "duration": 7,
+      "avg_return": 0.015306,
+      "max_drawdown": -0.001129,
+      "sigma_breach": 2.52,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_045 (2020-09-18)",
+      "start": "2020-09-18",
+      "end": "2020-09-24",
+      "duration": 5,
+      "avg_return": -0.012737,
+      "max_drawdown": -0.02975,
+      "sigma_breach": 2.25,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_046 (2020-11-03)",
+      "start": "2020-11-03",
+      "end": "2020-11-11",
+      "duration": 7,
+      "avg_return": 0.012645,
+      "max_drawdown": 0.008009,
+      "sigma_breach": 2.06,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_047 (2021-01-21)",
+      "start": "2021-01-21",
+      "end": "2021-02-05",
+      "duration": 11,
+      "avg_return": 0.001719,
+      "max_drawdown": -0.019244,
+      "sigma_breach": 0.21,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_048 (2022-01-18)",
+      "start": "2022-01-18",
+      "end": "2022-01-24",
+      "duration": 5,
+      "avg_return": -0.01308,
+      "max_drawdown": -0.026927,
+      "sigma_breach": 2.31,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_049 (2022-02-18)",
+      "start": "2022-02-18",
+      "end": "2022-02-24",
+      "duration": 5,
+      "avg_return": -0.012601,
+      "max_drawdown": -0.04896,
+      "sigma_breach": 2.23,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_050 (2022-03-08)",
+      "start": "2022-03-08",
+      "end": "2022-03-14",
+      "duration": 5,
+      "avg_return": 0.012323,
+      "max_drawdown": 0.00214,
+      "sigma_breach": 2.01,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_051 (2022-06-10)",
+      "start": "2022-06-10",
+      "end": "2022-06-17",
+      "duration": 6,
+      "avg_return": -0.012434,
+      "max_drawdown": -0.026734,
+      "sigma_breach": 2.2,
+      "type": "auto_detected"
+    },
+    {
+      "name": "Shock_052 (2025-04-01)",
+      "start": "2025-04-01",
+      "end": "2025-04-21",
+      "duration": 12,
+      "avg_return": 0.002121,
+      "max_drawdown": -0.03297,
+      "sigma_breach": 0.28,
+      "type": "auto_detected"
+    }
+  ]
+}

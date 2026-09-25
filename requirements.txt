@@ -1,0 +1,14 @@
+yfinance>=1.0
+pandas>=2.0
+numpy>=1.26
+statsmodels>=0.14          # Granger causality
+scikit-learn>=1.4          # KNN imputer, metrics
+torch>=2.2
+torch-geometric>=2.5       # PyG for TGAT
+torch-geometric-temporal   # TGCN/TGAT wrappers if needed
+networkx>=3.2              # Centrality metrics
+joblib>=1.3                # Parallel Granger computation
+matplotlib>=3.8
+seaborn>=0.13
+pyvis                      # Interactive network plots
+tqdm

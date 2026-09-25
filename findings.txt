@@ -1,0 +1,7 @@
+Demonetization (Nov 2016) produced a peak 5-day average sigma-breach of 1.94σ, 
+just below the 2.0σ detection threshold — the closest near-miss of any target period. 
+This is consistent with demonetization's real-world characterization as primarily a 
+liquidity/cash-economy shock rather than a sharp equity sell-off: index-level price 
+impact was present and measurable, but comparatively muted relative to GFC, IL&FS, 
+and COVID-19, which all cleared threshold comfortably (up to 2.52σ per your run).
+

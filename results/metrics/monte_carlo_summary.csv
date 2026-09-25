@@ -1,0 +1,4 @@
+fold,train_shock_names,test_shock_names,n_train_snapshots,n_test_snapshots,auc_roc,aupr,f1,precision,recall,auc_roc_low_fpr,best_epoch,best_val_loss,n_epochs_run,train_time_sec,pos_weight,threshold
+1,"['Global Financial Crisis', 'IL&FS and NBFC Liquidity Crisis']",['COVID-19 Pandemic Onset'],91.0,33.0,0.7548,0.3942,0.4524,0.3524,0.6315,0.2061,7.0,1.9373450568228057,21.0,610.9975311756134,2.357933579335793,0.9306
+μ,,,91.0,33.0,0.7548,0.3942,0.4524,0.3524,0.6315,0.2061,7.0,1.9373,21.0,610.9975,2.3579,0.9306
+σ,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
